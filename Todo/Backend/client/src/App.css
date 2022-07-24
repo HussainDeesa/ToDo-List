@@ -1,0 +1,346 @@
+/* Body */
+body {
+  background-color: #001336;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.welcome-text {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 10px;
+  font-family: "Tangerine", cursive;
+}
+/* Navbar */
+.navbar {
+  background-color: #191a19 !important;
+}
+.navbar-brand {
+  margin-left: 0px;
+}
+.container-fluid {
+  justify-content: flex-start !important;
+}
+.nav-item {
+  margin-right: 10px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: white;
+}
+.log-sign {
+  position: absolute;
+  right: 10px;
+}
+.btn-outline-primary {
+  border-color: #d8e9a8 !important;
+  color: #fbff00 !important;
+}
+.btn-outline-primary:hover {
+  color: black !important;
+  background-color: #fbff00;
+  border-color: #000000 !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+/* AddNote */
+.form-template {
+  background-color: #64175c;
+  margin: auto;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2), 0px 10px 20px rgba(0, 0, 0, 0.3),
+    0px 30px 60px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 40px 40px 15px 40px;
+  width: 50%;
+}
+.form-template .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-template .head .form-title {
+  font-size: 1.5em;
+}
+.form-title,
+.form-label {
+  color: rgb(241, 238, 238);
+}
+.form-template .msg {
+  text-align: center;
+}
+.form-template .form input[type="text"].text,
+.form-control,
+.form-control:focus {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: rgb(216 233 168);
+  font-size: 1em;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.form-label {
+  margin-top: 10px;
+}
+.form-template .form .form-btn {
+  background: none;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 0px 0px 2px white;
+  border-radius: 3px;
+  padding: 5px 2em;
+  transition: 0.5s;
+}
+
+.form-template .form .form-btn:hover,
+.edit-modal-submit:hover {
+  background-color: #fbff00;
+  background-image: linear-gradient(315deg, #eaff00 0%, #b8fd13 74%);
+  color: rgb(0 0 0);
+  transition: 0.5s;
+  box-shadow: 0px 0px 0px 3px rgb(94, 80, 80);
+}
+.form-template .forgot {
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin-top: 10px;
+}
+.form-btn,
+.addnote-btn,
+.addnote-btn-hover {
+  margin-top: 25px;
+}
+.your-notes-heading {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+.log-sig-redirect {
+  margin-top: 18px;
+  text-align: center;
+  color: #fffffe;
+}
+.log-sig-redirect a {
+  color: #ffffff;
+}
+.addnote-btn-hover {
+  background-color: #fbff00;
+  background-image: linear-gradient(315deg, #eaff00 0%, #b8fd13 74%);
+  color: rgb(0 0 0);
+  transition: 0.5s;
+  box-shadow: 0px 0px 0px 3px rgb(94, 80, 80);
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 5px 2em;
+  transition: 0.5s;
+}
+.addnote-btn {
+  background: none;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 0px 0px 2px white;
+  border-radius: 3px;
+  padding: 5px 2em;
+  transition: 0.5s;
+}
+/* Edit Note */
+.modal-body {
+  color: #000000;
+  padding-top: 0px;
+}
+.modal-content {
+  background-color: #fbff00;
+}
+.modal-body .form-label {
+  color: #000000;
+  font-weight: 600;
+}
+
+.modal-body input[type="text"],
+.modal-body textarea[type="text"] {
+  color: #001336;
+  border-bottom: 2px solid black;
+}
+.edit-modal-hr {
+  border-top: 2px dashed #001336;
+  padding: 0px;
+  margin: 0px;
+}
+.edit-modal-submit {
+  background-color: #001336;
+}
+/* Alert */
+.alert {
+  height: 20px;
+  padding: 0;
+  margin-top: 10px;
+  text-align: center;
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* NoteItem */
+.noteItem .card {
+  background-color: #fbff00;
+  border-radius: 10px;
+}
+.row {
+  justify-content: center;
+}
+.tag-badge {
+  display: flex;
+  position: absolute;
+  right: 7px;
+  margin-top: -14px;
+}
+.tag-badge span {
+  background-color: #001336;
+  font-size: 13px;
+}
+.tag-title {
+  margin-top: 9px;
+  display: flex;
+}
+.div-title {
+  display: flex;
+}
+/*  */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+i {
+  cursor: pointer;
+}
+.card-checkbox {
+  margin-top: 35px;
+  margin-left: 5px;
+  height: 20px;
+  width: 20px;
+}
+.card-title {
+  margin-top: 30px;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+.delete-icon {
+  position: absolute;
+}
+
+/* Profile */
+#form-profile,
+.list-group-item,
+#form-changeuser,
+#form-userchanged,
+#form-checkuser,
+#form-changepassword,
+#form-passwordchanged {
+  background-color: #fbff00;
+  color: #000000;
+}
+.profile-img {
+  margin: auto;
+  text-align: center;
+  width: 18%;
+}
+.user-details {
+  margin: auto;
+}
+.list-group-item {
+  font-size: 18px;
+  font-weight: 500;
+}
+.change-username-link,
+.change-password-link {
+  text-decoration: none;
+  color: #00318d;
+}
+.change-username-link:hover,
+.change-password-link:hover {
+  text-decoration: solid;
+}
+
+/*Change User  */
+.changeuser-input {
+  color: #000000;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.changeuser-input:focus {
+  border-bottom: 2px solid rgb(0, 0, 0);
+  color: #000000;
+}
+.changeuser-btn,
+.userchanged-btn {
+  text-decoration: none;
+  color: #000000 !important;
+  background-color: #fbff00;
+  font-size: 13px;
+}
+.changeuser-btn:hover {
+  color: #ffffff !important;
+  background-color: #001335 !important;
+  box-shadow: 0px 0px 0px 2px white;
+}
+
+/* Change Passwor */
+.username-label {
+  max-width: fit-content;
+  font-weight: 700;
+  border: none;
+  background-color: #fbff00;
+}
+.username-label:focus-visible {
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 990px) {
+  .form-template {
+    width: 85%;
+  }
+}
+@media (max-width: 500px) {
+  .form-template .head .form-title {
+    font-size: 1.7em;
+  }
+  .noteItem,
+  .col-md-3 {
+    width: 85%;
+  }
+  .alert {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .log-sig-redirect {
+    font-size: 13px;
+  }
+  .welcome-text {
+    font-size: 40px;
+  }
+  .list-group-item {
+    font-size: 14px;
+  }
+}
+@media (max-width: 350px) {
+  .changeuser-form-title {
+    font-size: 20px;
+  }
+  .alert {
+    font-size: 10px;
+  }
+}
