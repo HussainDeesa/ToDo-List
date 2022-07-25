@@ -62,7 +62,7 @@ const Signup = (props) => {
                         <label htmlFor="name" className="form-label">Username</label>
                         <input type="text" onChange={handleOnChange} className="form-control" name='name' id="name" required minLength={3} />
                         <label htmlFor="email" className="form-label">Email </label>
-                        <input type="text" onChange={handleOnChange} className="form-control" name='email' id="email" aria-describedby="emailHelp" required />
+                        <input type="email" onChange={handleOnChange} className="form-control" name='email' id="email" aria-describedby="emailHelp" required />
 
                         <label htmlFor="password" className="form-label">Password </label>
                         <input type="password" onChange={handleOnChange} className="form-control" name='password' id="password" required minLength={7} />

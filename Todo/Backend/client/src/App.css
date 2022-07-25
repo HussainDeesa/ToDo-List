@@ -118,6 +118,7 @@ body {
 .addnote-btn,
 .addnote-btn-hover {
   margin-top: 25px;
+  margin-bottom: 5px;
 }
 .your-notes-heading {
   text-align: center;
@@ -182,7 +183,6 @@ body {
 .alert {
   height: 20px;
   padding: 0;
-  margin-top: 10px;
   text-align: center;
   color: #ff0000;
   font-weight: bold;
@@ -330,7 +330,7 @@ i {
     font-size: 13px;
   }
   .welcome-text {
-    font-size: 40px;
+    font-size: 25px;
   }
   .list-group-item {
     font-size: 14px;
