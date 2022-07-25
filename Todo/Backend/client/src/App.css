@@ -302,6 +302,7 @@ i {
   max-width: fit-content;
   font-weight: 700;
   border: none;
+  width: 100px;
   background-color: #fbff00;
 }
 .username-label:focus-visible {
