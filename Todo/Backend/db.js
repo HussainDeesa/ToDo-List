@@ -12,5 +12,4 @@ const connectToMongo = () => {
         console.log(e, 'not connected');
     });
 }
-
 module.exports = connectToMongo
