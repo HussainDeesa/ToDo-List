@@ -74,6 +74,8 @@ export default function About(props) {
             else {
                 form_changepassword.classList.add('hide')
                 form_passwordchanged.classList.remove('hide')
+                localStorage.removeItem('token')
+
             }
         }
         else {
