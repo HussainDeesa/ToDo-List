@@ -93,7 +93,7 @@ export default function About(props) {
                         <div>
                             <label htmlFor="name" className="changeuser-label ">Username : </label>
                             <input type="text" value={name} className=" my-2 username-label" id="name" name='name' required /><br />
-                            <label htmlFor="password" className="password-label ">Enter current password:</label>
+                            <label htmlFor="password" className="changepassword-label ">Enter current password:</label>
                             <input type="text" value={crediantials.password} onChange={handleOnChange} className="form-control my-2 changeuser-input" id="password" name='password' required />
                         </div>
                         <button type="submit" className="btn my-3 btn-primary changeuser-btn" >Verify</button>

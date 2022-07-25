@@ -256,7 +256,7 @@ i {
 .profile-img {
   margin: auto;
   text-align: center;
-  width: 18%;
+  width: 30%;
 }
 .user-details {
   margin: auto;
@@ -330,7 +330,7 @@ i {
     font-size: 13px;
   }
   .welcome-text {
-    font-size: 25px;
+    font-size: 30px;
   }
   .list-group-item {
     font-size: 14px;
@@ -339,6 +339,12 @@ i {
 @media (max-width: 350px) {
   .changeuser-form-title {
     font-size: 20px;
+  }
+  .changepassword-form-title {
+    font-size: 20px;
+  }
+  .changeuser-label,.changepassword-label,.username-label {
+    font-size: 14px;
   }
   .alert {
     font-size: 10px;

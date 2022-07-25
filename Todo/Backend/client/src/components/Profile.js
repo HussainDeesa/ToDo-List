@@ -49,7 +49,6 @@ export default function About(props) {
                     </form>
                 </div>
                 {/* </form> */}
-                <Alert alert={props.alert} />
             </div>
         </div >
         // </div >
