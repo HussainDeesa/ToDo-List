@@ -1,5 +1,5 @@
 const jwt= require('jsonwebtoken')
-const JWT_SECRET = "Hussainisagoodboy"
+const JWT_SECRET =process.env.REACT_APP_JWT_SECRET
 
 const fetchuser=(req,res,next)=>{
     let success;
